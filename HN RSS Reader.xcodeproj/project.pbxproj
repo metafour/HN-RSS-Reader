@@ -19,6 +19,13 @@
 		01E84AE11810953B0062D7F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E84AC91810953B0062D7F0 /* UIKit.framework */; };
 		01E84AE91810953B0062D7F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E84AE71810953B0062D7F0 /* InfoPlist.strings */; };
 		01E84AEB1810953B0062D7F0 /* HN_RSS_ReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84AEA1810953B0062D7F0 /* HN_RSS_ReaderTests.m */; };
+		01E84AF6181095CD0062D7F0 /* HNRSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84AF5181095CD0062D7F0 /* HNRSSViewController.m */; };
+		01E84AF91810C7320062D7F0 /* HNRSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84AF81810C7320062D7F0 /* HNRSSChannel.m */; };
+		01E84AFC1810D0A00062D7F0 /* HNRSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84AFB1810D0A00062D7F0 /* HNRSSItem.m */; };
+		01E84AFF1810FE150062D7F0 /* HNRSSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84AFE1810FE150062D7F0 /* HNRSSWebViewController.m */; };
+		01E84B021810FFCF0062D7F0 /* HNRSSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84B011810FFCF0062D7F0 /* HNRSSDetailViewController.m */; };
+		01E84B0518110F170062D7F0 /* HNRSSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84B0418110F170062D7F0 /* HNRSSWebView.m */; };
+		01E84B0818110F2B0062D7F0 /* HNRSSDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E84B0718110F2B0062D7F0 /* HNRSSDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,20 @@
 		01E84AE61810953B0062D7F0 /* HN RSS ReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HN RSS ReaderTests-Info.plist"; sourceTree = "<group>"; };
 		01E84AE81810953B0062D7F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01E84AEA1810953B0062D7F0 /* HN_RSS_ReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HN_RSS_ReaderTests.m; sourceTree = "<group>"; };
+		01E84AF4181095CD0062D7F0 /* HNRSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSViewController.h; sourceTree = "<group>"; };
+		01E84AF5181095CD0062D7F0 /* HNRSSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSViewController.m; sourceTree = "<group>"; };
+		01E84AF71810C7320062D7F0 /* HNRSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSChannel.h; sourceTree = "<group>"; };
+		01E84AF81810C7320062D7F0 /* HNRSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSChannel.m; sourceTree = "<group>"; };
+		01E84AFA1810D0A00062D7F0 /* HNRSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSItem.h; sourceTree = "<group>"; };
+		01E84AFB1810D0A00062D7F0 /* HNRSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSItem.m; sourceTree = "<group>"; };
+		01E84AFD1810FE150062D7F0 /* HNRSSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSWebViewController.h; sourceTree = "<group>"; };
+		01E84AFE1810FE150062D7F0 /* HNRSSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSWebViewController.m; sourceTree = "<group>"; };
+		01E84B001810FFCF0062D7F0 /* HNRSSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSDetailViewController.h; sourceTree = "<group>"; };
+		01E84B011810FFCF0062D7F0 /* HNRSSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSDetailViewController.m; sourceTree = "<group>"; };
+		01E84B0318110F170062D7F0 /* HNRSSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSWebView.h; sourceTree = "<group>"; };
+		01E84B0418110F170062D7F0 /* HNRSSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSWebView.m; sourceTree = "<group>"; };
+		01E84B0618110F2B0062D7F0 /* HNRSSDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRSSDetailView.h; sourceTree = "<group>"; };
+		01E84B0718110F2B0062D7F0 /* HNRSSDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRSSDetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +130,20 @@
 			children = (
 				01E84AD41810953B0062D7F0 /* HNAppDelegate.h */,
 				01E84AD51810953B0062D7F0 /* HNAppDelegate.m */,
+				01E84AF71810C7320062D7F0 /* HNRSSChannel.h */,
+				01E84AF81810C7320062D7F0 /* HNRSSChannel.m */,
+				01E84AFA1810D0A00062D7F0 /* HNRSSItem.h */,
+				01E84AFB1810D0A00062D7F0 /* HNRSSItem.m */,
+				01E84AF4181095CD0062D7F0 /* HNRSSViewController.h */,
+				01E84AF5181095CD0062D7F0 /* HNRSSViewController.m */,
+				01E84AFD1810FE150062D7F0 /* HNRSSWebViewController.h */,
+				01E84AFE1810FE150062D7F0 /* HNRSSWebViewController.m */,
+				01E84B0318110F170062D7F0 /* HNRSSWebView.h */,
+				01E84B0418110F170062D7F0 /* HNRSSWebView.m */,
+				01E84B001810FFCF0062D7F0 /* HNRSSDetailViewController.h */,
+				01E84B011810FFCF0062D7F0 /* HNRSSDetailViewController.m */,
+				01E84B0618110F2B0062D7F0 /* HNRSSDetailView.h */,
+				01E84B0718110F2B0062D7F0 /* HNRSSDetailView.m */,
 				01E84AD71810953B0062D7F0 /* Images.xcassets */,
 				01E84ACC1810953B0062D7F0 /* Supporting Files */,
 			);
@@ -240,8 +275,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E84B0518110F170062D7F0 /* HNRSSWebView.m in Sources */,
+				01E84AFF1810FE150062D7F0 /* HNRSSWebViewController.m in Sources */,
+				01E84AF91810C7320062D7F0 /* HNRSSChannel.m in Sources */,
+				01E84B021810FFCF0062D7F0 /* HNRSSDetailViewController.m in Sources */,
 				01E84AD61810953B0062D7F0 /* HNAppDelegate.m in Sources */,
+				01E84AF6181095CD0062D7F0 /* HNRSSViewController.m in Sources */,
+				01E84B0818110F2B0062D7F0 /* HNRSSDetailView.m in Sources */,
 				01E84AD21810953B0062D7F0 /* main.m in Sources */,
+				01E84AFC1810D0A00062D7F0 /* HNRSSItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +484,7 @@
 				01E84AF01810953B0062D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01E84AF11810953B0062D7F0 /* Build configuration list for PBXNativeTarget "HN RSS ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +493,7 @@
 				01E84AF31810953B0062D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
